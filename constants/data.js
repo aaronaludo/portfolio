@@ -15,12 +15,12 @@ const userData = {
         year: "2022",
         desc: "Bachelor of Science in Computer Science.",
       },
-      {
-        title: "Software Developer",
-        company: "Freelancing",
-        year: "2021",
-        desc: "Develop and maintain web applications for clients",
-      },
+      // {
+      //   title: "Software Developer",
+      //   company: "Freelancing",
+      //   year: "2021",
+      //   desc: "Develop and maintain web applications for clients",
+      // },
       {
         title: "Senior High School",
         company: "ICCT Colleges",
