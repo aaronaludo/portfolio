@@ -47,6 +47,8 @@ export default function Hero() {
                 src={userData.avatarUrl}
                 alt="avatar"
                 className="rounded-1xl w-500"
+                width={500}
+                height={500}
               />
               <div className="flex flex-row justify-between mt-5">
               </div>
