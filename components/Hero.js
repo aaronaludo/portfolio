@@ -21,7 +21,7 @@ export default function Hero() {
               </h1>
               <div className="relative flex flex-col md:flex-row md:space-x-4">
                 <a
-                  href="https://discord.com/invite/t5fJFKNdws"
+                  href="/"
                   target="_blank"
                   rel="noreferrer"
                   className="flex items-center w-full px-6 py-3 mb-3 text-sm text-white dark:text-black dark:bg-white dark:hover:bg-gray-200 bg-black rounded-md md:mb-0 hover:bg-gray-800 md:w-auto"
