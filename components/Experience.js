@@ -1,5 +1,6 @@
 import userData from "../constants/data";
 import React from "react";
+import Image from "next/image";
 
 export default function Experience() {
   return (

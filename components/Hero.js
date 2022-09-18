@@ -1,6 +1,7 @@
 import React from "react";
 import userData from "../constants/data";
 import { useTheme } from "next-themes";
+import Image from "next/image";
 
 export default function Hero() {
   const { theme } = useTheme();
@@ -42,7 +43,7 @@ export default function Hero() {
           </div>
           <div className="w-full md:w-1/2 mb-12 order-first md:order-last">
             <div className="w-full h-auto overflow-hidden">
-              <img
+              <Image
                 src={userData.avatarUrl}
                 alt="avatar"
                 className="rounded-1xl w-500"
