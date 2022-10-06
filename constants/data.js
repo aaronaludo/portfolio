@@ -1,7 +1,7 @@
 const userData = {
     name: "Aaron Aludo",
     designation: "Software Developer",
-    avatarUrl: "/art.png",
+    avatarUrl: "/aaron.jpg",
     darkAvatarUrl: "/wojak-dark.png",
     email: "aaronaludo@gmail.com",
     phone: "+63 955 773 5516",

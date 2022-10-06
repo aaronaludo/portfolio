@@ -1,6 +1,5 @@
 import userData from "../constants/data";
 import React from "react";
-import Image from "next/image";
 
 export default function Experience() {
   return (
@@ -10,7 +9,7 @@ export default function Experience() {
           Experience
         </h1>
       </div>
-      <div className="bg-[#F1F1F1] dark:bg-black -mt-4 pb-16">
+      <div className="bg-[#F1F1F1] dark:bg-black -mt-4 pb-16 mt-10">
         <div className="grid grid-cols-1 dark:bg-black max-w-xl mx-auto pt-200">
           {userData.experience.map((exp, idx) => (
             <>

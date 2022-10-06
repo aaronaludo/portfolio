@@ -1,11 +1,8 @@
 import React from "react";
 import userData from "../constants/data";
-import { useTheme } from "next-themes";
 import Image from "next/image";
 
 export default function Hero() {
-  const { theme } = useTheme();
-
   return (
     <div className="px-2 md:px-0">
       <div className="container items-center max-w-6xl px-8 mx-auto xl:px-5 mb-52 md:mb-auto">
@@ -48,7 +45,7 @@ export default function Hero() {
                 alt="avatar"
                 className="rounded-1xl w-500"
                 width={500}
-                height={500}
+                height={470}
               />
               <div className="flex flex-row justify-between mt-5">
               </div>
