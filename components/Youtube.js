@@ -74,7 +74,7 @@ const YoutubeProjectsCard = ({ title, link, imgUrl, number }) => {
   return (
     <a href={link} className="w-full block shadow-2xl">
       <div className="relative overflow-hidden">
-        <div className="h-80 md:h-52 object-cover">
+        <div className="h-60 md:h-52 object-cover">
           <Image
             src={imgUrl}
             alt="portfolio"
