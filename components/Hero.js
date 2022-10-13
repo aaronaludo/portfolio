@@ -12,7 +12,7 @@ export default function Hero() {
               <h1 className="text-base md:text-4xl text-gray-900 dark:text-gray-200 -mb-6">
                 <span className="font-bold">Hi, </span> I&apos;m Aaron Aludo
               </h1>
-              <h1 className="text-base sm:text-2xl text-gray-900 dark:text-gray-200">Founder of <a href="https://www.google.com/" target="_blank" className="font-bold">Wyrtech</a></h1>
+              <h1 className="text-base sm:text-2xl text-gray-900 dark:text-gray-200">Founder of Wyrtech </h1>
               <h1 className="text-base md:text-2xl text-gray-900 dark:text-gray-200">
                 A 19-year-old{" "}
                 <span className="font-bold">software developer</span> based in Philippines.
