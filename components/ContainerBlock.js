@@ -41,7 +41,7 @@ export default function ContainerBlock({ children, ...customMeta }) {
         {meta.date && (
           <meta property="article:published_time" content={meta.date} />
         )}
-        <link rel="shortcut icon" href="/art.png" />
+        <link rel="shortcut icon" href="/circle.png" />
       </Head>
       <main className="dark:bg-gradient-to-l dark:from-[#0f0f0f] w-full">
         <Navbar />

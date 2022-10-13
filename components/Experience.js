@@ -3,18 +3,19 @@ import React from "react";
 
 export default function Experience() {
   return (
-    <section className="bg-white dark:bg-black">
-      <div className="max-w-6xl mx-auto h-48 bg-white dark:bg-black">
-        <h1 className="text-3xl md:text-6xl font-bold py-20 text-center md:text-left">
-          Experience
-        </h1>
+    <section className="bg-[#F1F1F1] dark:bg-black">
+      <div className="bg-[#F1F1F1] dark:bg-black">
+        <div className="max-w-6xl mx-auto h-48">
+          <h1 className=" text-3xl md:text-5xl font-bold pt-20 pb-10 text-center">
+            Experience
+          </h1>
+        </div>
       </div>
       <div className="bg-[#F1F1F1] dark:bg-black -mt-4 pb-16 mt-10">
         <div className="grid grid-cols-1 dark:bg-black max-w-xl mx-auto pt-200">
           {userData.experience.map((exp, idx) => (
-            <>
+            <div key={idx}>
               <ExperienceCard
-                key={idx}
                 title={exp.title}
                 desc={exp.desc}
                 year={exp.year}
@@ -29,7 +30,7 @@ export default function Experience() {
                   <div className="w-1 h-24 bg-gray-200 dark:bg-gray-500 rounded-full -mt-2"></div>
                 </div>
               )}
-            </>
+            </div>
           ))}
         </div>
       </div>

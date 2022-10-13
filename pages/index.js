@@ -1,6 +1,7 @@
 import ContainerBlock from "../components/ContainerBlock";
-import LatestBlog from "../components/LatestBlog";
+import TechStack from "../components/TechStack";
 import Hero from "../components/Hero";
+import Youtube from '../components/Youtube';
 
 export default function Home() {
   return (
@@ -9,7 +10,8 @@ export default function Home() {
       description="A 19-year-old software developer based in Philippines."
     >
       <Hero />
-      <LatestBlog />
+      <TechStack />
+      <Youtube />
     </ContainerBlock>
   );
 }
