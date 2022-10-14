@@ -10,7 +10,7 @@ export default function ContainerBlock({ children, ...customMeta }) {
   const meta = {
     title: "Aaron Aludo - Software Developer",
     description: `A 19-year-old software developer based in Philippines.`,
-    image: "/art.png",
+    image: "/aaron.png",
     type: "website",
     ...customMeta,
   };

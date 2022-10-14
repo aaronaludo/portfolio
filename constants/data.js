@@ -32,7 +32,7 @@ const userData = {
     about: {},
     experience: [
       {
-        title: "Founder of Wyrtech",
+        title: "Creator of Wyrtech",
         company: "Educational Youtube Channel",
         year: "2022",
         desc: "Our objective is to provide students with support in achieving their goals, a greater understanding of their aims, and a road map that will lead them in the right direction.",
