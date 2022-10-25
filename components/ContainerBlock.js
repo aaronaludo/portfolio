@@ -8,8 +8,8 @@ export default function ContainerBlock({ children, ...customMeta }) {
   const router = useRouter();
 
   const meta = {
-    title: "Aaron Aludo - Software Developer",
-    description: `A 19-year-old software developer based in Philippines.`,
+    title: "Aaron Aludo - Software Engineer",
+    description: `A 19-year-old software engineer based in Philippines.`,
     image: "/aaron.png",
     type: "website",
     ...customMeta,

@@ -1,6 +1,6 @@
 const userData = {
     name: "Aaron Aludo",
-    designation: "Software Developer",
+    designation: "Software Engineer",
     avatarUrl: "/aaron.png",
     email: "aaronaludo@gmail.com",
     phone: "+63 955 773 5516",
@@ -44,7 +44,7 @@ const userData = {
         desc: "Bachelor of Science in Computer Science.",
       },
       {
-        title: "Software Developer",
+        title: "Software Engineer",
         company: "Freelancing",
         year: "2021",
         desc: "Develop and maintain web applications for clients",

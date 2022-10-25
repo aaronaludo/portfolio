@@ -15,7 +15,7 @@ export default function Hero() {
               <h1 className="text-base sm:text-2xl text-gray-900 dark:text-gray-200">Founder at <span className="font-bold">Wyrtech</span> </h1>
               <h1 className="text-base md:text-2xl text-gray-900 dark:text-gray-200">
                 A 19-year-old{" "}
-                <span className="font-bold">software developer</span> based in Philippines.
+                <span className="font-bold">software engineer</span> based in Philippines.
               </h1>
               <div className="relative flex flex-col md:flex-row md:space-x-4">
                 <a
