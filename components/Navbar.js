@@ -14,7 +14,8 @@ export default function Navbar() {
   }, []);
 
   return (
-    <div className="max-w-6xl  mx-auto px-4 py-10 md:py-20">
+    <div className="dark:bg-black">
+      <div className="max-w-6xl  mx-auto px-4 py-10 md:py-20">
       <div className="flex  md:flex-row justify-between items-center">
 
         <div className="flex flex-col">
@@ -80,7 +81,7 @@ export default function Navbar() {
                   : "text-gray-600 dark:text-gray-300 font-normal "
               }`}
             >
-              Works{" "}
+              Projects{" "}
               {router.asPath === "/projects" && (
                 <svg xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" version="1.1" id="Capa_1" x="0px" y="0px" viewBox="0 0 201.949 201.949"  xmlSpace="preserve" width='20px' height='20px' fill="currentColor" className="inline-block">
                 <g>
@@ -335,6 +336,7 @@ export default function Navbar() {
           </a>
         </Link>
       </div>
+    </div>
     </div>
   );
 }

@@ -4,17 +4,14 @@ import Image from "next/image";
 
 export default function Youtube() {
   return (
-    <>
+    <div className="dark:bg-black">
     <div className="px-2 py-58">
       <div className="container items-center max-w-6xl px-8 mx-auto xl:px-5 md:mb-auto pt-20 pb-10">
         <div className="flex flex-wrap items-center md:-mx-3 justify-center">
           <div className="w-full md:w-1/2 md:px-3">
             <div className="w-full pb-6 space-y-6 md:max-w-md lg:max-w-lg md:space-y-4 lg:space-y-8 xl:space-y-9 md:pr-5 lg:pr-0 md:pb-0">
-              <h1 className="text-2xl md:text-4xl text-gray-900 dark:text-gray-200 -mb-6 text-center">
+              <h1 className="text-2xl md:text-4xl text-gray-900 dark:text-gray-200 -mb-6 text-center pb-5">
                 <span className="font-bold">Wyrtech on YouTube</span>
-              </h1>
-              <h1 className="text-lg md:text-lg text-gray-900 dark:text-gray-200 text-center">
-                Our YouTube channel has 1000+ free tutorials and crash courses
               </h1>
               <div className="relative flex md:flex-row md:space-x-4 justify-center">
                 <a
@@ -66,7 +63,7 @@ export default function Youtube() {
           </a>
         </div>
     </div>
-    </>
+    </div>
   );
 }
 

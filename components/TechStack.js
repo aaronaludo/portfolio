@@ -1,6 +1,6 @@
 export default function TechStack() {
     return (
-      <section className="bg-[#F1F1F1] -mt-40 dark:bg-black pb-40">
+      <section className="bg-[#F1F1F1] -mt-40 dark:bg-[#101010] pb-40">
         <div className="max-w-6xl mx-auto">
           <div className="flex flex-col md:flex-row justify-between items-center md:mt-40">
             <h1 className="text-3xl lg:text-5xl max-w-lg font-bold text-black my-20 dark:text-gray-100 text-center lg:text-left">

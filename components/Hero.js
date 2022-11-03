@@ -4,7 +4,7 @@ import Image from "next/image";
 
 export default function Hero() {
   return (
-    <div className="px-2 md:px-0">
+    <div className="px-2 md:px-0 dark:bg-black">
       <div className="container items-center max-w-6xl px-8 mx-auto xl:px-5 mb-52 md:mb-auto">
         <div className="flex flex-wrap items-center md:-mx-3">
           <div className="w-full md:w-1/2 md:px-3">
@@ -12,7 +12,6 @@ export default function Hero() {
               <h1 className="text-base md:text-4xl text-gray-900 dark:text-gray-200 -mb-6">
                 <span className="font-bold">Hi, </span> I&apos;m Aaron Aludo
               </h1>
-              <h1 className="text-base sm:text-2xl text-gray-900 dark:text-gray-200">Founder at <span className="font-bold">Wyrtech</span> </h1>
               <h1 className="text-base md:text-2xl text-gray-900 dark:text-gray-200">
                 A 19-year-old{" "}
                 <span className="font-bold">software engineer</span> based in Philippines.
