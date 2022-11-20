@@ -7,9 +7,9 @@ const userData = {
     address: "Taytay, Rizal Philippines",
     projects: [
       {
-        title: 'test',
+        title: 'Todo List',
         link: 'test',
-        imgUrl: '/aaron.png'
+        imgUrl: '/Todo.png'
       },
     ],
     projects1: [
