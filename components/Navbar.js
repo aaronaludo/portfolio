@@ -14,7 +14,7 @@ export default function Navbar() {
   }, []);
 
   return (
-    <div className="dark:bg-black">
+    <div className="dark:bg-[#0d0d0d]">
       <div className="max-w-6xl  mx-auto px-4 py-10 md:py-20">
       <div className="flex  md:flex-row justify-between items-center">
 

@@ -3,13 +3,13 @@ import userData from "../constants/data";
 
 export default function Contact() {
   return (
-    <section>
+    <section className="bg-[#F1F1F1] dark:bg-[#0d0d0d]">
       <div className="max-w-6xl mx-auto h-48 antialiased">
         <h1 className="text-3xl lg:text-6xl font-bold py-20 text-center md:text-left">
           Contact
         </h1>
       </div>
-      <div className="relative z-10 rounded-md max-w-6xl mx-auto -mt-4 mb-96">
+      <div className="relative z-10 rounded-md max-w-6xl mx-auto -mt-4 pb-96">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-4 text-center sm:text-left mb-24">
           <header>
             <h1 className="text-black dark:text-gray-50 font-semibold text-2xl">

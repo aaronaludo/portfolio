@@ -9,8 +9,14 @@ const userData = {
       {
         title: 'Todo List',
         link: 'test',
-        imgUrl: '/Todo.png'
+        imgUrl: '/Todo.png',
+        html: true
       },
+      {
+        title: 'React Authentication Laravel Sanctum',
+        link: 'test',
+        imgUrl: '/Auth.png'
+      }
     ],
     projects1: [
       {
