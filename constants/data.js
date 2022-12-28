@@ -37,29 +37,23 @@ const userData = {
     ],
     about: {},
     experience: [
-      // {
-      //   title: "Founder at Wyrtech",
-      //   company: "Educational Youtube Channel",
-      //   year: "2022",
-      //   desc: "Our objective is to provide students with support in achieving their goals, a greater understanding of their aims, and a road map that will lead them in the right direction.",
-      // },
       {
-        title: "2nd year College",
+        title: "Associate of Computer Technology",
         company: "ICCT Colleges",
         year: "2022",
-        desc: "Bachelor of Science in Computer Science.",
+        desc: "College",
       },
-      // {
-      //   title: "Software Engineer",
-      //   company: "Freelancing",
-      //   year: "2021",
-      //   desc: "Develop and maintain web applications for clients",
-      // },
       {
-        title: "Senior High School",
+        title: "Web Developer",
+        company: "Freelancing",
+        year: "2021",
+        desc: "Develop and maintain web applications for clients",
+      },
+      {
+        title: "Science, Technology, Engineering, and Mathematics strand",
         company: "ICCT Colleges",
         year: "2020",
-        desc: "Science, Technology, Engineering, and Mathematics strand",
+        desc: "Senior High School",
       },
     ],
     socialLinks: {

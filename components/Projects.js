@@ -113,7 +113,7 @@ const ProjectCard = () => {
         </h1>
       </div>
     </a>
-    <a href={'test'} className="w-full block shadow-xl">
+    <a href={'https://github.com/aaronaludo/neumorphism-test'} className="w-full block shadow-xl">
       <div className="relative overflow-hidden">
         <div className="h-72 object-cover">
           <Image
@@ -138,7 +138,7 @@ const ProjectCard = () => {
         </h1>
       </div>
     </a>
-    <a href={'test'} className="w-full block shadow-xl">
+    <a href={'https://github.com/aaronaludo/border-radius-test'} className="w-full block shadow-xl">
       <div className="relative overflow-hidden">
         <div className="h-72 object-cover">
           <Image
